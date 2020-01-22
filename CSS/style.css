@@ -1,0 +1,229 @@
+#makeRed {
+	color: red;
+}
+
+body {
+	animation: colorchange 5s;
+	/* animation-name followed by duration in seconds*/
+	/* you could also use milliseconds (ms) or something like 2.5s */
+	-webkit-animation: colorchange 50s;
+	/* Chrome and Safari */
+}
+
+@keyframes colorchange {
+	0% {
+		background: red;
+	}
+
+	25% {
+		background: yellow;
+	}
+
+	50% {
+		background: blue;
+	}
+
+	75% {
+		background: green;
+	}
+
+	100% {
+		background: red;
+	}
+}
+
+@-webkit-keyframes colorchange
+
+/* Safari and Chrome - necessary duplicate */
+	{
+	0% {
+		background: red;
+	}
+
+	25% {
+		background: yellow;
+	}
+
+	50% {
+		background: blue;
+	}
+
+	75% {
+		background: green;
+	}
+
+	100% {
+		background: red;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	margin-right: 40px;
+	font-size: 30px
+}
+
+a:hover {
+	color: red;
+}
+
+
+h3 {
+	color: red;
+}
+
+div {
+	height: 40px;
+	color: green;
+	margin-top: 30px;
+	margin-left: 50px;
+}
+
+h1:hover {
+	color: DC143C;
+	font-size: 50px;
+}
+
+h2:hover {
+	font-size: 25px;
+	color: rgb(206, 19, 196);
+
+}
+
+h4 {
+	color: green;
+}
+
+.text {
+	height: 90px;
+	border: 1px solid red;
+	background-color: white;
+	display: inline-block;
+}
+
+#mot {
+	color: red;
+}
+
+#mot:hover {
+	color: blue;
+}
+
+hr {
+	color: white;
+}
+
+#game {
+	color: green;
+}
+
+#controller:hover {
+	color: green;
+}
+
+.gamers {
+
+
+	border: 0.50px solid green;
+	background-color: green;
+	display: inline-block;
+}
+
+
+
+.bouderhem {
+	height: 60px;
+	border: 1px solid blue;
+	background-color: blue;
+	display: inline-block;
+}
+
+#tournament,
+#duty {
+	color: green;
+}
+
+#prix {
+	color: red;
+}
+
+#saahil {
+	color: green;
+}
+
+#maroun {
+	color: blue;
+}
+
+#sumail {
+	color: 666666;
+}
+
+#jesse {
+	color: 660066;
+}
+
+#lasse {
+	color: 00f6e7;
+}
+
+#ivan {
+	color: 6f9600;
+}
+
+#amer {
+	color: ff4c00;
+}
+
+#johan {
+	color: 6c4c00;
+}
+
+#kuro {
+	color: 6c3bad;
+}
+
+#id {
+	color: red;
+	font-size: 20px
+}
+
+p {
+	background-color: #ccff66;
+}
+
+.header {
+	background-image: url('../RES/2.jpg');
+	height: 400px;
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 500px;
+}
+
+.header h3 {
+	color: red;
+	margin-left: 50%;
+	font-size: 40px;
+	box-shadow: 0 3px 2px rgba(0, 0, 0, .5);
+	box-sizing: border-box;
+}
+
+.name,
+.number,
+.day,
+.pass {
+	color: white;
+	font-size: 20px;
+	margin-top: 5px
+}
+
+.klay {
+	color: red;
+	background-color: white;
+}
+
+.link {
+	margin-right: 0px;
+}
